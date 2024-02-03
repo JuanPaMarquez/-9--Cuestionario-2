@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+p, h2, figure {
+    width: 70%;
+    margin: 10px auto;
+}
+
+#tribute-info {
+    color: black;
+}
+
+#tribute-link {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 221);
+    
+}
+
+figcaption {
+    font-style: italic;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    p, h2, figure {
+        width: 100%;
+        margin: 10px auto;
+        padding: 1px 1rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    p, h2, figure {
+        width: 50%;
+        margin: 10px auto;
+        padding: 1px 1rem;
+    }
+}
+
